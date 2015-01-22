@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var gulp = require('gulp');
 var browserify = require('browserify');
 var del = require('del');
 var reactify = require('reactify');

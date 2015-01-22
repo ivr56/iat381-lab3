@@ -37,8 +37,10 @@ var React = require('react');
 module.exports = React.createClass({
   render: function () {
     return (
-      <div className='home-page'>
-        Test Lab
+      <div className='cat-page'>
+        <div className='cat-div'>
+        
+        </div>
       </div>
     );
   }
