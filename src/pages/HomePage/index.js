@@ -38,8 +38,9 @@ module.exports = React.createClass({
   render: function () {
     return (
       <div className='home-page'>
-        Test Lab
-      </div>
+        <p>Test Lab
+        New View is called Ivor Sangala </p>
+        </div>
     );
   }
 

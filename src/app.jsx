@@ -16,7 +16,7 @@ var CatPage = require('./pages/CatPage');
 var menuItems = [
   // inject:menuitems
   { payload: 'home', text: 'Home Page' },
-  { payload: 'cat', text: 'New Page' },
+  { payload: 'cat', text: 'New View Page' },
   // endinject
 ];
 

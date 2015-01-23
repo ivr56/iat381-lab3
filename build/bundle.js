@@ -17,7 +17,7 @@ var CatPage = require('./pages/CatPage');
 var menuItems = [
   // inject:menuitems
   { payload: 'home', text: 'Home Page' },
-  { payload: 'cat', text: 'New Page' },
+  { payload: 'cat', text: 'New View Page' },
   // endinject
 ];
 
@@ -27827,9 +27827,8 @@ module.exports = React.createClass({displayName: "exports",
   render: function () {
     return (
       React.createElement("div", {className: "cat-page"}, 
-        React.createElement("div", {className: "cat-div"}
-
-        )
+        "Test Please Ignore"
+ 
       )
     );
   }
@@ -27877,8 +27876,9 @@ module.exports = React.createClass({displayName: "exports",
   render: function () {
     return (
       React.createElement("div", {className: "home-page"}, 
-        "Test Lab"
-      )
+        React.createElement("p", null, "Test Lab" + ' ' +
+        "New View is called Ivor Sangala ")
+        )
     );
   }
 

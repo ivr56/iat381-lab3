@@ -38,9 +38,8 @@ module.exports = React.createClass({
   render: function () {
     return (
       <div className='cat-page'>
-        <div className='cat-div'>
-        
-        </div>
+        Test Please Ignore
+ 
       </div>
     );
   }
